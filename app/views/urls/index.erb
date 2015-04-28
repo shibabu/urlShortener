@@ -1,0 +1,9 @@
+<h1>urlShortener</h1>
+
+<% @urls.each do |url| %>
+  <p>
+    <%= link_to url.random_id, url_path(id: url.random_id) %> : <%= url.original %>
+  </p>
+<% end %>
+
+<%= link_to 'urlShortener New', new_url_path %>

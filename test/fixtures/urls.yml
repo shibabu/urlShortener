@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  original: MyString
+  random_id: MyString
+
+two:
+  original: MyString
+  random_id: MyString
